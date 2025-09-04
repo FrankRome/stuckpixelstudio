@@ -4,21 +4,21 @@ import { MessageCircle, Heart, Star, Users } from 'lucide-react';
 const Community: React.FC = () => {
   const patreonTiers = [
     {
-      name: 'Bug Reporter',
+      name: 'Mini pixel',
       price: '$3',
       perks: ['Early access to builds', 'Discord access', 'Dev updates'],
       color: '#3B82F6', // azul Tailwind 500
       hover: '#2563EB'  // azul Tailwind 600
     },
     {
-      name: 'Code Reviewer',
+      name: 'Pixel',
       price: '$8',
       perks: ['All previous perks', 'Vote on next game features', 'Behind-scenes content'],
       color: '#EF4444', // rojo Tailwind 500
       hover: '#DC2626'  // rojo Tailwind 600
     },
     {
-      name: 'Senior Dev',
+      name: 'Big pixel',
       price: '$15',
       perks: ['All previous perks', 'Monthly 1-on-1 with team', 'Name in credits'],
       color: '#22C55E', // verde Tailwind 500
@@ -112,7 +112,7 @@ const Community: React.FC = () => {
                   </li>
                 ))}
               </ul>
-
+                <a href='https://www.patreon.com/c/Stuckpixelstudio'>
               <button
                 style={{ backgroundColor: tier.color }}
                 onMouseEnter={e => (e.currentTarget.style.backgroundColor = tier.hover)}
@@ -122,6 +122,7 @@ const Community: React.FC = () => {
                 <Heart className="h-5 w-5" />
                 Choose Plan
               </button>
+              </a>
             </div>
           ))}
         </div>

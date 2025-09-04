@@ -3,9 +3,9 @@ import { Mail, Download, Twitter, Instagram, Youtube, ArrowRight } from 'lucide-
 
 const Contact: React.FC = () => {
   const socialLinks = [
-    { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/stuckpixelstudio', color: 'hover:text-blue-500' },
-    { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/stuckpixelstudio', color: 'hover:text-pink-500' },
-    { name: 'YouTube', icon: Youtube, href: 'https://youtube.com/@stuckpixelstudio', color: 'hover:text-red-500' },
+    { name: 'Twitter', icon: Twitter, href: 'https://x.com/stuckpixelgame', color: 'hover:text-blue-500' },
+    { name: 'Instagram', icon: Instagram, href: ' https://www.instagram.com/stuckpixelstudio', color: 'hover:text-pink-500' },
+    { name: 'YouTube', icon: Youtube, href: 'https://www.youtube.com/@stuckpixelstudio', color: 'hover:text-red-500' },
   ];
 
   return (
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                       href="mailto:hello@stuckpixelstudio.com"
                       className="text-lg font-semibold text-gray-900 dark:text-white hover:text-cyan-500 transition-colors duration-200"
                     >
-                      hello@stuckpixelstudio.com
+                      contact@stuckpixelstudio.com
                     </a>
                   </div>
                 </div>

@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Games from './components/Games';
 import Community from './components/Community';
-import Blog from './components/Blog';
+//import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './styles/animations.css';
@@ -20,7 +20,9 @@ function App() {
           <About />
           <Games />
           <Community />
-          <Blog />
+
+          { // <Blog />}
+          }
           <Contact />
         </main>
         <Footer />

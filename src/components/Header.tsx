@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 px-3 py-2 text-sm font-mono font-medium transition-colors duration-200 hover:underline hover:decoration-cyan-500"
+                  className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 px-3 py-2 text-sm font-mono font-medium transition-colors duration-200 hover:underline hover:decoration-blue-500"
                 >
                   {item.name}
                 </a>
@@ -67,7 +67,7 @@ const Header: React.FC = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 dark:text-gray-300 hover:text-cyan-500 block px-3 py-2 text-base font-mono font-medium transition-colors duration-200"
+                  className="text-gray-700 dark:text-gray-300 hover:text-red-500 block px-3 py-2 text-base font-mono font-medium transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

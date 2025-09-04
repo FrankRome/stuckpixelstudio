@@ -11,7 +11,7 @@ const Games: React.FC = () => {
       coverImage: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=600',
       status: 'Released',
       platforms: {
-        itch: 'https://stuckpixel.itch.io/pixel-drift',
+        itch: 'https://stuckpixelstudio.itch.io',
         steam: 'https://store.steampowered.com/app/pixeldrift'
       }
     },
@@ -22,7 +22,7 @@ const Games: React.FC = () => {
       coverImage: 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',
       status: 'Early Access',
       platforms: {
-        itch: 'https://stuckpixel.itch.io/memory-leak'
+        itch: 'https://stuckpixelstudio.itch.io'
       }
     },
     {
