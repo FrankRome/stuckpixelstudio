@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}
+
+@layer utilities {
+  .text-magenta-500 {
+    color: #FF00FF;
+  }
+  
+  .bg-magenta-500 {
+    background-color: #FF00FF;
+  }
+  
+  .border-magenta-500 {
+    border-color: #FF00FF;
+  }
+  
+  .hover\:text-magenta-500:hover {
+    color: #FF00FF;
+  }
+  
+  .hover\:bg-magenta-500:hover {
+    background-color: #FF00FF;
+  }
+  
+  .hover\:bg-magenta-600:hover {
+    background-color: #E600E6;
+  }
+  
+  .from-magenta-500 {
+    --tw-gradient-from: #FF00FF;
+  }
+  
+  .to-magenta-500 {
+    --tw-gradient-to: #FF00FF;
+  }
+  
+  .to-magenta-600 {
+    --tw-gradient-to: #E600E6;
+  }
+  
+  .shadow-magenta-500\/25 {
+    --tw-shadow-color: rgb(255 0 255 / 0.25);
+    box-shadow: var(--tw-shadow-colored);
+  }
+  
+  .text-cyan-500 {
+    color: #00FFFF;
+  }
+  
+  .bg-cyan-500 {
+    background-color: #00FFFF;
+  }
+  
+  .hover\:text-cyan-500:hover {
+    color: #00FFFF;
+  }
+  
+  .hover\:text-cyan-400:hover {
+    color: #22D3EE;
+  }
+  
+  .hover\:bg-cyan-600:hover {
+    background-color: #00E6E6;
+  }
+  
+  .from-cyan-500 {
+    --tw-gradient-from: #00FFFF;
+  }
+  
+  .to-cyan-600 {
+    --tw-gradient-to: #00E6E6;
+  }
+  
+  .shadow-cyan-500\/25 {
+    --tw-shadow-color: rgb(0 255 255 / 0.25);
+    box-shadow: var(--tw-shadow-colored);
+  }
+}
