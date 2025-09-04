@@ -19,7 +19,7 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-           <img src="src/img/icon.png" width="32" height="32"></img>
+           <img src="img/icon.png" width="32" height="32"></img>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
              &nbsp; Stuck Pixel Studio
             </span>
