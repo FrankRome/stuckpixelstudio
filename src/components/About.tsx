@@ -54,7 +54,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-cyan-500/20 via-magenta-500/20 to-green-500/20 rounded-2xl flex items-center justify-center relative overflow-hidden">
               <img
-                src="https://github.com/FrankRome/stuckpixelstudio/blob/91c32b30051b3028a15d8863bd384529f9176648/src/img/icon.png"
+              src="/img/icon.png"
                 alt="Stuck Pixel Studio Team"
                 className="w-full h-full object-cover rounded-2xl opacity-80"
               />
