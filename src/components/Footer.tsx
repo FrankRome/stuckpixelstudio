@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-               <img src="src/img/icon.png" width="32" height="32"></img>
+               <img src="img/icon.png" width="32" height="32"></img>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">
                 &nbsp;  Stuck Pixel Studio
               </span>
