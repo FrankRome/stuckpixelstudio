@@ -9,8 +9,8 @@ const Header: React.FC = () => {
   const navItems = [
     { name: 'About', href: '#about' },
     { name: 'Games', href: '#games' },
-    { name: 'Community', href: '#community' },
-    { name: 'Blog', href: '#blog' },
+   // { name: 'Community', href: '#community' },
+    //{ name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' },
   ];
 

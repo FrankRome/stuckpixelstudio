@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-400 font-mono text-sm leading-relaxed">
-              Making weird & fun games since 2021. 
+              Making weird & fun games since 2025. 
               Expect the unexpected.
             </p>
           </div>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 font-mono text-sm flex items-center gap-2">
-              Made with bugs & <Coffee className="h-4 w-4 text-green-500" /> in LATAM — © 2024 Stuck Pixel Studio
+              Made with bugs & <Coffee className="h-4 w-4 text-green-500" /> in LATAM — © 2025 Stuck Pixel Studio
             </p>
             <p className="text-gray-500 font-mono text-xs flex items-center gap-2">
               Built with <Heart className="h-4 w-4 text-red-500 animate-pulse" /> and questionable coding practices
