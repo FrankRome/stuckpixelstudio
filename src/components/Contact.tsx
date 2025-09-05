@@ -1,5 +1,6 @@
 import React from 'react';
-import { Mail, Download, Twitter, Instagram, Youtube, ArrowRight } from 'lucide-react';
+import { Mail, //Download, 
+  Twitter, Instagram, Youtube, ArrowRight } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const socialLinks = [
@@ -28,7 +29,7 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 Get in <span className="text-green-500">Touch</span>
               </h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="flex items-center justify-center w-12 h-12 bg-cyan-500/10 rounded-lg">
@@ -36,7 +37,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 font-mono">Email us</p>
-                    <a 
+                    <a
                       href="mailto:hello@stuckpixelstudio.com"
                       className="text-lg font-semibold text-gray-900 dark:text-white hover:text-cyan-500 transition-colors duration-200"
                     >
@@ -44,32 +45,34 @@ const Contact: React.FC = () => {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="flex items-center justify-center w-12 h-12 bg-magenta-500/10 rounded-lg">
-                    <Download className="h-6 w-6 text-red-500" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 font-mono">Press Kit</p>
-                    <button className="text-lg font-semibold text-gray-900 dark:text-white hover:text-magenta-500 transition-colors duration-200">
-                      Download Assets
-                    </button>
-                  </div>
-                </div>
+                {
+                  /*
+                                  <div className="flex items-center gap-4">
+                                    <div className="flex items-center justify-center w-12 h-12 bg-magenta-500/10 rounded-lg">
+                                      <Download className="h-6 w-6 text-red-500" />
+                                    </div>
+                                    <div>
+                                      <p className="text-sm text-gray-500 dark:text-gray-400 font-mono">Press Kit</p>
+                                      <button className="text-lg font-semibold text-gray-900 dark:text-white hover:text-magenta-500 transition-colors duration-200">
+                                        Download Assets
+                                      </button>
+                                    </div>
+                                  </div>*/
+                }
               </div>
             </div>
 
             {/* Press Kit Details */}
             <div className="bg-white dark:bg-black rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                Press Kit Contents
+               Stuck pixel studio
               </h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400 font-mono text-sm">
-                <li>• High-res studio logos</li>
-                <li>• Game screenshots & artwork</li>
-                <li>• Developer biographies</li>
-                <li>• Studio fact sheet</li>
-                <li>• Interview questions</li>
+                <li>• Access to the new games released that month.</li>
+                <li>• Focus on small, experimental games</li>
+                <li>• Games debut on Patreon before appearing on Steam/itch.io later.</li>
+                <li>• Latam indie games</li>
+               
               </ul>
             </div>
           </div>
@@ -79,7 +82,7 @@ const Contact: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
               Follow <span className="text-green-500">Us</span>
             </h3>
-            
+
             <div className="grid gap-4 mb-8">
               {socialLinks.map((link) => (
                 <a
@@ -103,7 +106,7 @@ const Contact: React.FC = () => {
                 For Business Inquiries
               </h4>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                Interested in collaborations, publishing deals, or featuring our games? 
+                Interested in collaborations, publishing deals, or featuring our games?
                 We'd love to hear from you at our main contact email.
               </p>
             </div>

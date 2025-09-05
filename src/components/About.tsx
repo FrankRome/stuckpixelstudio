@@ -20,11 +20,17 @@ const About: React.FC = () => {
             <div className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
               <p>
                We’re Stuck Pixel Studio — a Latin American boy band that makes video games.
+                Three friends, one mission: to create weird, fun, and fresh gaming experiences. We mix code, art, and a bit of chaos to ship games that don’t take themselves too seriously — but still hit hard.
               </p>
               <p>
-               Three friends, one mission: to create weird, fun, and fresh gaming experiences. We mix code, art, and a bit of chaos to ship games that don’t take themselves too seriously — but still hit hard.
+             <span className="text-red-500">Luife</span> is a game developer from Cuba, represented by the color Red. With strong programming skills and a passion for building interactive systems, he transforms concepts into polished and engaging gameplay experiences.
               </p>
-              
+              <p>
+                 <span className="text-green-500">Santi</span> is a Venezuelan developer represented by the color Green. Specializing in pixel art and animations, he brings the visual identity of our games to life with vibrant style and attention to detail.
+              </p>
+              <p>
+                <span className="text-blue-500">Fran Nabo</span>  is a mexican developer represented by the color Blue. Beyond coding, he brings his talent for music and sound design, shaping the atmosphere and emotional impact of our games through unique audio experiences.
+              </p>
             </div>
 
             <div className="grid grid-cols-3 gap-6 mt-8">

@@ -1,5 +1,7 @@
 import React from 'react';
-import { ExternalLink, Download, Clock, CheckCircle, Zap } from 'lucide-react';
+import { ExternalLink, Download, //Clock, CheckCircle, Zap 
+
+} from 'lucide-react';
 import type { Game } from '../types';
 
 const Games: React.FC = () => {
@@ -36,7 +38,7 @@ const Games: React.FC = () => {
       }
     }
   ];
-
+/*
   const getStatusIcon = (status: Game['status']) => {
     switch (status) {
       case 'Released':
@@ -57,7 +59,7 @@ const Games: React.FC = () => {
       case 'Prototype':
         return 'bg-gray-500 text-white';
     }
-  };
+  };*/
 
   return (
     <section id="games" className="py-20 bg-white dark:bg-black transition-colors duration-300">
@@ -84,12 +86,15 @@ const Games: React.FC = () => {
                   alt={game.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4">
+                {
+                  /*
+                  <div className="absolute top-4 left-4">
                   <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold font-mono ${getStatusColor(game.status)}`}>
                     {getStatusIcon(game.status)}
                     {game.status}
                   </span>
-                </div>
+                </div> */
+                }
               </div>
 
               <div className="p-6">

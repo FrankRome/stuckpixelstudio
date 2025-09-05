@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Games from './components/Games';
-import Community from './components/Community';
+//import Community from './components/Community';
 //import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,8 +19,9 @@ function App() {
           <Hero />
           <About />
           <Games />
-          <Community />
-
+          {
+         // <Community />
+          }
           { // <Blog />}
           }
           <Contact />
