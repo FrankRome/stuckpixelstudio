@@ -18,19 +18,22 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400 font-mono mb-12 max-w-2xl mx-auto leading-relaxed">
-          We make <span className="text-green-500 font-bold">weird</span> & <span className="text-red-500 font-bold">fun</span> games
+          A gamedev <span className="text-green-500 font-bold">BOYBAND</span> based in <span className="text-red-500 font-bold">LATAM</span> 
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <a href='https://stuckpixelstudio.itch.io'>
           <button className="group px-8 py-4 bg-green-500 text-white font-bold rounded-lg text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-magenta-green/25 flex items-center gap-3 min-w-[200px]">
             <Play className="h-6 w-6 group-hover:animate-pulse" />
             Play our Games
           </button>
-          
+          </a>
+           <a href='https://www.patreon.com/c/Stuckpixelstudio'>
           <button className="group px-8 py-4 bg-red-500 text-white font-bold rounded-lg text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/25 flex items-center gap-3 min-w-[200px]">
             <Heart className="h-6 w-6 group-hover:animate-pulse" />
             Join our Patreon
           </button>
+          </a>
         </div>
 
         {/* Floating elements for visual interest */}

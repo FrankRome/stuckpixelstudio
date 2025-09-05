@@ -6,32 +6,34 @@ const Games: React.FC = () => {
   const games: Game[] = [
     {
       id: '1',
-      title: 'Pixel Drift',
-      description: 'A glitchy racing game where physics are more like suggestions.',
-      coverImage: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title: 'Happy Dawn',
+      description: 'Happy Dawn is a small Game Boy Advance game. Yes, as you just read, in 2024, a GBA game,',
+      coverImage: 'https://img.itch.zone/aW1nLzIwNzE2NzUwLnBuZw==/315x250%23c/24bt2V.png',
       status: 'Released',
       platforms: {
-        itch: 'https://stuckpixelstudio.itch.io',
-        steam: 'https://store.steampowered.com/app/pixeldrift'
+        itch: 'https://luife.itch.io/happy-dawn',
+        //steam: 'https://store.steampowered.com/app/pixeldrift'
       }
     },
     {
       id: '2',
-      title: 'Memory Leak',
-      description: 'A puzzle platformer about a sentient bug trying to escape its own code.',
-      coverImage: 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title: 'Ghostle GB',
+      description: 'Ghostle GB, the amazing game about ghosts and puzzles',
+      coverImage: 'https://img.itch.zone/aW1nLzE3ODU5NTgwLnBuZw==/315x250%23c/B1pwCg.png',
       status: 'Early Access',
       platforms: {
-        itch: 'https://stuckpixelstudio.itch.io'
+        itch: 'https://luife.itch.io/ghostle-gb'
       }
     },
     {
       id: '3',
-      title: 'Null Pointer Exception',
-      description: 'Coming soon: An existential crisis simulator.',
-      coverImage: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title: 'Metal Slayer',
+      description: 'Metal Slayer is an exciting Boss Rush video game created for Boss Rush Jam 2025',
+      coverImage: 'https://img.itch.zone/aW1nLzE5NjY2NzQyLnBuZw==/315x250%23c/RN6l1s.png',
       status: 'Prototype',
-      platforms: {}
+      platforms: {
+        itch: "https://luife.itch.io/metal-slayer"
+      }
     }
   ];
 

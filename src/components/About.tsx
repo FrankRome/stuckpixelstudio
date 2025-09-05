@@ -19,14 +19,12 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
               <p>
-                Born from the vibrant indie scene of Latin America, Stuck Pixel Studio is a collective of passionate developers, artists, and dreamers who believe games should push boundaries and challenge expectations.
+               We’re Stuck Pixel Studio — a Latin American boy band that makes video games.
               </p>
               <p>
-                We started as a group of friends making weird prototypes in our spare time. Today, we're still that same group of friends – just with better coffee and more bugs to fix.
+               Three friends, one mission: to create weird, fun, and fresh gaming experiences. We mix code, art, and a bit of chaos to ship games that don’t take themselves too seriously — but still hit hard.
               </p>
-              <p>
-                Our games blend experimental mechanics with heartfelt storytelling, always keeping that DIY spirit that makes indie gaming special.
-              </p>
+              
             </div>
 
             <div className="grid grid-cols-3 gap-6 mt-8">
