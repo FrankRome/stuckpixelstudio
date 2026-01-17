@@ -9,6 +9,7 @@ import Games from './components/Games';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './styles/animations.css';
+import SteamWishlist from './components/SteamWishlist';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <Header />
         <main>
           <Hero />
+           <SteamWishlist />
           <About />
+       
           <Games />
           {
          // <Community />
