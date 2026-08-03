@@ -51,10 +51,10 @@ export default function Contact() {
                 <div className="min-w-0">
                   <p className="text-sm text-zinc-400">Email us</p>
                   <a
-                    href="mailto:contacto@stuckpixelstudio.com"
+                    href="mailto:social.media@stuckpixelstudio.com"
                     className="font-mono text-sm md:text-base font-semibold text-white break-all hover:text-red-400 transition-colors sm:text-lg"
                   >
-                    contacto@stuckpixelstudio.com
+                    social.media@stuckpixelstudio.com
                   </a>
                 </div>
               </div>
