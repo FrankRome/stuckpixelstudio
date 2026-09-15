@@ -3,19 +3,27 @@ import { ExternalLink, Gamepad2 } from "lucide-react";
 import Image from "next/image";
 
 const games = [
+   {
+    title: "Knock Time",
+    description:
+      "Knock Time is a beat 'em up for the Game Boy Advance",
+    image: "/games/happy dawn.png",
+    link: "https://stuck-pixel-studio.itch.io/knock-time",
+    tag: "GBA",
+  },
   {
     title: "Happy Dawn",
     description:
       "Happy Dawn is a small Game Boy Advance game. Yes, as you just read, in 2024, a GBA game.",
     image: "/games/happy dawn.png",
-    link: "https://itch.io",
+    link: "https://luife.itch.io/happy-dawn",
     tag: "GBA",
   },
   {
     title: "Ghostle GB",
     description: "Ghostle GB, the amazing game about ghosts and puzzles",
     image: "/games/ghostle.png",
-    link: "https://itch.io",
+    link: "https://luife.itch.io/ghostle-gb",
     tag: "Puzzle",
   },
   {
@@ -23,7 +31,7 @@ const games = [
     description:
       "Metal Slayer is an exciting Boss Rush video game created for Boss Rush Jam 2025",
     image: "/games/metal slayer.png",
-    link: "https://itch.io",
+    link: "https://luife.itch.io/metal-slayer",
     tag: "Action",
   },
 ];
