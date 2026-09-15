@@ -6,7 +6,7 @@ const games = [
    {
     title: "Knock Time",
     description:
-      "Knock Time is a beat 'em up for the Game Boy Advance",
+      "Knock Time is a beat 'em up for the Game Boy Advance in which you play as a boxer on a mission through the chaotic streets of Venezuela to rescue your journalist brother",
     image: "/games/time.png",
     link: "https://stuck-pixel-studio.itch.io/knock-time",
     tag: "GBA",
