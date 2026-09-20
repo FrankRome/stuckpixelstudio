@@ -83,7 +83,10 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col gap-4 sm:flex-row">
-          <Link href={"https://stuck-pixel-studio.itch.io/"}>
+          <Link 
+            href={"https://stuck-pixel-studio.itch.io/"}
+             target="_blank"
+            >
             <Button
               size="lg"
               className="bg-red-600 px-8 py-6 font-mono text-base text-white shadow-[0_0_20px_rgba(239,68,68,0.4)] transition-all hover:bg-red-500 hover:shadow-[0_0_30px_rgba(239,68,68,0.6)]"
